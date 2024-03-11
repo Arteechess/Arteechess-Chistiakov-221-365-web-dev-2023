@@ -1,0 +1,366 @@
+html {
+	scroll-behavior: smooth;
+}
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: #000;
+    font-size: 15px;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+header {
+	text-align: center;
+	background-color: #DF826C;
+	color: #fff;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background-size: cover;
+}
+
+.title_name{
+	margin-top: 80px;
+	text-align: center;
+	color: #000000;
+	font-family: 'Futura', sans-serif;
+	font-size: 45px;
+}
+
+.container {
+  max-width: 75%;
+  margin: 0 auto;
+}
+
+.nav {
+  font-size: 20px;
+  height: 30px;
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.nav a {
+  text-decoration: none;
+  color: rgb(17, 17, 16);
+  transition: color 0.3s;
+}
+
+.nav a:hover {
+  color: rgb(255, 255, 255);
+}
+
+#aboutme{
+	max-height: 600px;
+	display: flex;
+	height: 100vh;
+}
+
+.text-center {
+  text-align: left;
+}
+
+.me{
+	margin: 0 50px;
+}
+
+.about_me {
+    display: flex;
+}
+
+.circle {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.circle img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.about_me{
+    display: flex;
+    margin-top: 80px;
+    color: #DF826C;
+}
+
+.about_me__text{
+  margin-left: 80px;
+}
+
+.about_me__text-info{
+    width: 500px;
+    color: #000;
+}
+
+.education__title{
+		font-size: 50px;
+		color: #DF826C;
+		text-align: center;
+		margin-top: 150px;
+		font-weight: bold;
+}
+
+.education{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.education__text{
+		margin-top: 10px;
+    width: 600px;
+}
+
+.education__text-title{
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.education__text-year{
+    margin-top: 20px;
+    font-size: 30px;
+    
+}
+
+.education__text-info{
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.education__picture img{
+    width: 216px;
+    height: 216px;
+}
+
+.skills{
+    margin-top: 70px;
+    margin-bottom: 150px;
+}
+
+.skills__item{
+    margin: 0 auto;
+}
+
+.skills div{
+    font-size: 1000px;
+}
+
+.skills__title{
+		font-size: 50px;
+    color: #DF826C;
+    text-align: center;
+    margin-top: 150px;
+		font-weight: bold;
+}
+
+.skills__item-title{
+    font-size: 30px !important; 
+}
+
+.skills__item-info{
+   font-size: 20px !important;
+}
+
+
+footer{
+    margin-top: 100px;
+    text-align: center;
+    margin-bottom: 100px;
+}
+.contact__title{
+    font-size: 30px;
+    margin-bottom: 30px;
+		text-align: center;
+}
+.table {
+	width: 100%;
+	margin-bottom: 20px;
+	border: 1px solid #dddddd;
+	border-collapse: collapse; 
+}
+.table th {
+	font-weight: bold;
+	padding: 5px;
+	background: #efefef;
+	border: 1px solid #dddddd;
+}
+.table td {
+	border: 1px solid #dddddd;
+	padding: 5px;
+}
+
+.talk {
+	text-decoration: none;
+  border: 2px solid black;
+  padding: 10px 15px;
+  border-radius: 5px;
+  color: black;
+}
+.read {
+	justify-content: space-around;
+  align-items: center;
+	margin-top: 50px;
+	text-align: center;
+}
+.read a:hover {
+	color: #DF826C;
+}
+
+.footer {
+	margin-top: 50px;
+  margin-bottom: 50px;
+	left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #b9b9b9;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+	border: 0.5px dashed rgb(0, 0, 0);
+}
+
+.data {
+	text-align: center;
+}
+.education__picture {
+	margin-right: 20px;
+}
+.back-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: none;
+  font-size: 24px;
+  color: #fff;
+  background: #000;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  z-index: 1000;
+}
+ 
+.back-to-top:hover {
+  background: #333;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background-color: rgb(227, 80, 198);
+  color: white;
+  border-color: rgb(227, 80, 198);
+}
+
+.btr {
+  background-color: rgb(150, 150, 150);
+  border-color: rgb(0, 0, 0);
+  padding: 5px 10px;
+  border-radius: 5px;
+  text-decoration: none;
+  color: rgb(17, 17, 16);
+  transition: color 0.3s;
+}
+
+
+
+.tc {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.background-image {
+  background-image: url(back.jpg);
+  /* Укажите путь к вашему фоновому изображению */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  min-height: 100vh;
+  /* Занимает всю высоту экрана */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.frm-group {
+	margin-bottom: 15px;
+  text-align: left;
+}
+
+.login-container {
+  background-color: rgba(210, 209, 209, 0.8);
+  /* Полупрозрачный белый фон */
+  padding: 20px;
+  border-radius: 5px;
+  width: 300px;
+  /* Ширина контейнера формы */
+  text-align: center;
+}
+
+.btn {
+  text-decoration: none;
+  border: 2px solid black;
+  padding: 5px 10px;
+  border-radius: 5px;
+  color: black;
+}
+
+input[type="submit"] {
+  background-color: rgb(227, 80, 198);
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+form {
+  margin: 0;
+}
+
+.log {
+  display: block;
+}
+
+.password {
+  display: block;
+}
+
+input[type="text"],
+input[type="password"] {
+  width: 90%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+input[type="checkbox"] {
+  vertical-align: middle;
+  margin-right: 5px;
+}
+
+input[type="submit"] {
+  width: 98%;
+  /* Ширина кнопки равна ширине контейнера */
+  padding: 10px;
+  background-color: #DF826C;
+  ;
+  /* Цвет фона кнопки */
+  color: #fff;
+  /* Цвет текста кнопки */
+  border: none;
+  border-radius: 3px;
+}
+
+.tc {
+  text-align: center;
+  margin-top: 20px;
+}

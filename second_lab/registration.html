@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Авторизиция</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="header">
+			<div class="container">
+				<nav class="nav">
+						<a class="G" href="index.html">Главная</a>
+				</nav>
+			</div>
+    </header>
+		<div class="background-image">
+			<div class="login-container">
+					<h2 class="text-center">Вход</h2>
+					<form action="https://httpbin.org/post" method="post">
+							<div class="frm-group">
+									<label for="log">Логин</label>
+									<input type="text" id="log" name="log" placeholder="Введите логин" required>
+							</div>
+							<div class="frm-group">
+									<label for="password">Пароль</label>
+									<input type="password" id="password" name="password" placeholder="Введите пароль" required>
+							</div>
+							<div class="frm-group">
+									<input type="checkbox" name="remember" id="remember">
+									<label for="remember">Запомнить меня</label>
+							</div>
+							<div class="frm-group text-center">
+									<input type="submit" value="Войти">
+							</div>
+					</form>
+			</div>
+	</div>
+		
+	<footer>
+		<div class="container">
+				<div class="contact__title">Мои контакты</div>
+				<p>artem@chistiakov.su</p>
+				<p>@ARCHESTERFILD</p>
+		</div>
+		<p class="text-center">Copyright © 2024. Использование материалов допускается только с указанием данного ресурса в качестве источника</p>
+</footer>
+</body>
+
+</html>
