@@ -3,11 +3,17 @@ html {
 }
 
 body {
-    margin: 0;
+		width: 100%;
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     color: #000;
-    font-size: 15px;
+    font-size: 20px;
+}
+
+a {
+	text-decoration: none;
+	margin-top: 80px;
+	margin-right: 80px;
 }
 
 ul {
@@ -23,6 +29,7 @@ ul {
 }
 
 header {
+		width: 100%;
     background-color: #DF826C;
 		text-align: center;
 		padding-top: 10px;
@@ -31,27 +38,24 @@ header {
 }
 
 header ul {
-    display: flex;
-    padding-top: 15px;
+    padding-top: 10px;
     padding-bottom: 15px;
 
 }
 
 header ul li {
-		margin-left: 60px;
+		margin-left: 20px;
     font-weight: 700px;
 }
 .nav {
   font-size: 20px;
   height: 30px;
   padding: 20px;
-  display: flex;
   justify-content: space-around;
   align-items: center;
 }
 
 .nav a {
-	text-decoration: none;
   color: rgb(17, 17, 16);
   transition: color 0.3s;
 }
@@ -60,8 +64,19 @@ header ul li {
   color: rgb(254, 254, 254);
 }
 
+h1 {
+		font-size: 50px;
+    color: #DF826C;
+    text-align: center;
+    margin-top: 80px;
+		font-weight: bold;
+}
+
+p {
+	font-size: 25px;
+}
+
 .about_me {
-    display: flex;
 		margin: 100px;
 }
 
@@ -77,22 +92,22 @@ header ul li {
 .circle{
 	width: 200px;
 	height: 200px;
-	border-radius: 50%;
+	border-radius: 100%;
 	overflow: hidden;
 	margin-right: 20px;
 }
 
 
 .circle img {
+		left: 45vw;
+		margin: auto;
     width: 100%;
     height: auto;
-    display: block;
 }
 
 .circle_me img {
 	width: 100%;
 	height: auto;
-	display: block;
 }
 
 .about_me{
@@ -109,17 +124,10 @@ header ul li {
 		font-weight: bold;
 }
 
-.about_me__text{
-    margin-left: 120px;
-}
-
 .about_me__text-info{
-    left: 250px;
-    right: 0;
-    margin: 40px auto;
-    top: 350px;
+		padding-left: 80px;
     text-align: justify;
-    width: 500px;
+    width: 90%;
     color: #000;
 }
 .read {
@@ -133,7 +141,6 @@ header ul li {
 	color: #DF826C;
 }
 .talk {
-	text-decoration: none;
   border: 2px solid black;
   padding: 10px 15px;
   border-radius: 5px;
@@ -163,12 +170,10 @@ header ul li {
 
 .education__text{
     width: 600px;
-    padding: 0px 0px 0px 0px;
 }
 
 .education__texted{
 	width: 600px;
-	padding: 0px 0px 0px 0px;
 }
 
 .education__text-title{
@@ -228,20 +233,9 @@ header ul li {
 	margin-left: 180px;
 }
 
-.skills{
-    margin-top: 100px;
-    margin-bottom: 150px;
-}
-
-.skills__item{
-    margin: 0 auto;
-}
-
-.skills div{
-    font-size: 70px;
-}
 
 .skills__title{
+		margin-bottom: 50px;
     font-size: 50px;
     color: #DF826C;
     text-align: center;
@@ -249,12 +243,8 @@ header ul li {
 		font-weight: bold;
 }
 
-.skills__item-title{
-    font-size: 30px !important; 
-}
-
-.skills__item-info{
-   font-size: 20px !important;
+.skills__item-title {
+	font-size: 40px;
 }
 
 
@@ -291,18 +281,53 @@ footer{
 
 
 .table {
+	margin-top: 80px;
 	width: 100%;
 	margin-bottom: 20px;
 	border: 1px solid #dddddd;
-	border-collapse: collapse; 
 }
+
 .table th {
 	font-weight: bold;
 	padding: 5px;
 	background: #efefef;
 	border: 1px solid #dddddd;
 }
+
 .table td {
 	border: 1px solid #dddddd;
 	padding: 5px;
+}
+
+.btn11 {
+		text-align: center;
+		margin-top: 80px;
+}
+
+.button-1 {
+	color: #232323;
+	background: transparent;
+	border: 1px solid #232323;
+	position: relative;
+	font-size: 14px;
+	letter-spacing: .3em;
+	font-family: 'Roboto', sans-serif;
+	padding: 17px 34px 17px 39px;
+	transition: .2s ease-in-out;
+	cursor: pointer;
+}
+.button-1:before {
+	content: "" ;
+	position: absolute;
+	top: 5px;
+	left: 5px;
+	width: 100%;
+	height: 100%;
+	background: #DF826C;
+	z-index: -1;
+	transition: .25s ease;
+	transform: translate(0, 0);
+}
+.button-1:hover:before {
+	transform: translate(4px, 4px);
 }

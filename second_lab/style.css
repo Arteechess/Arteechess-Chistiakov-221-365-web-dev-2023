@@ -8,6 +8,20 @@ body {
     font-weight: 400;
     color: #000;
     font-size: 15px;
+		/* background-image: url(back.jpg); */
+		/* background-size: cover; */
+		/* background-repeat: repeat-y; */
+		/* background-position: center; */
+}
+
+#artem {
+	margin: 0;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+	color: #000;
+	font-size: 15px;
+	background-image: url(back.jpg);
+	/* background-size: cover; */
 }
 
 ul {
@@ -265,12 +279,11 @@ footer{
 		margin-top: 200px;
     text-align: center;
     margin-bottom: 50px;
-		left: 0;
-		bottom: 0;
-		width: 100%;
+		/* left: 0; */
+		/* bottom: 0; */
+		/* width: 100%; */
 		background-color: #b9b9b9;
 		color: #3e3d3d;
-		text-align: center;
   	padding: 20px 0;
 		border: 1.5px dashed rgb(0, 0, 0);
 }
@@ -316,17 +329,19 @@ footer{
 }
 
 .background-image {
-  background-image: url(back.jpg);
+  /* background-image: url(back.jpg); */
   /* Укажите путь к вашему фоновому изображению */
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
   min-height: 100vh;
+	width: 50%;
+	margin: auto;
   /* Занимает всю высоту экрана */
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
+  /* display: flex; */
+  /* justify-content: center; */
+  /* align-items: center; */
+  /* flex-direction: column; */
 }
 
 .form-group {
