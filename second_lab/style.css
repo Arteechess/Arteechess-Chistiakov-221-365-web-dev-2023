@@ -3,15 +3,11 @@ html {
 }
 
 body {
-    margin: 0;
+		margin: 0;
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     color: #000;
     font-size: 15px;
-		/* background-image: url(back.jpg); */
-		/* background-size: cover; */
-		/* background-repeat: repeat-y; */
-		/* background-position: center; */
 }
 
 #artem {
@@ -21,7 +17,14 @@ body {
 	color: #000;
 	font-size: 15px;
 	background-image: url(back.jpg);
-	/* background-size: cover; */
+	background-size: cover;
+}
+
+h2 {
+	text-align: center;
+	font-size: 40px;
+	color: #DF826C;
+	margin-bottom: 20px;
 }
 
 ul {
@@ -31,7 +34,7 @@ ul {
 }
 
 .container {
-    max-width: 1000px;
+    max-width: 70%;
 		text-align: center;
 		margin: 0 auto;
 }
@@ -42,6 +45,10 @@ header {
 		padding-top: 10px;
 		padding-bottom: 10px;
 		background-size: cover;
+}
+
+a {
+	text-decoration: none;
 }
 
 header ul {
@@ -90,22 +97,20 @@ header ul li {
 .circle{
 	width: 200px;
 	height: 200px;
-	border-radius: 50%;
+	border-radius: 100%;
 	overflow: hidden;
-	margin-right: 20px;
+	margin-right: 100px;
 }
 
 
 .circle img {
     width: 100%;
     height: auto;
-    display: block;
 }
 
 .circle_me img {
 	width: 100%;
 	height: auto;
-	display: block;
 }
 
 .about_me{
@@ -127,12 +132,12 @@ header ul li {
 }
 
 .about_me__text-info{
+		font-size: 20px;
     left: 250px;
-    right: 0;
     margin: 40px auto;
     top: 350px;
     text-align: justify;
-    width: 500px;
+    width: 600px;
     color: #000;
 }
 .read {
@@ -157,6 +162,8 @@ header ul li {
 	font-size: medium;
 }
 
+
+
 .education__title{
     font-size: 50px;
     color: #DF826C;
@@ -174,18 +181,16 @@ header ul li {
 
 .education{
     margin-top: 50px;
-    margin-bottom: 10px;
+    margin-bottom: 50px;
     display: flex;
 }
 
 .education__text{
     width: 600px;
-    padding: 0px 0px 0px 0px;
 }
 
 .education__texted{
 	width: 600px;
-	padding: 0px 0px 0px 0px;
 }
 
 .education__text-title{
@@ -238,7 +243,7 @@ header ul li {
 }
 
 .education__picture {
-	margin-left: 90px;
+	margin-left: 80px;
 }
 
 .education__pictured {
@@ -276,12 +281,8 @@ header ul li {
 
 
 footer{
-		margin-top: 200px;
     text-align: center;
     margin-bottom: 50px;
-		/* left: 0; */
-		/* bottom: 0; */
-		/* width: 100%; */
 		background-color: #b9b9b9;
 		color: #3e3d3d;
   	padding: 20px 0;
@@ -303,12 +304,9 @@ footer{
   height: 250px;
 }
 
-
-
-
 .table {
 	width: 100%;
-	margin-bottom: 20px;
+	margin-bottom: 100px;
 	border: 1px solid #dddddd;
 	border-collapse: collapse; 
 }
@@ -329,19 +327,17 @@ footer{
 }
 
 .background-image {
-  /* background-image: url(back.jpg); */
-  /* Укажите путь к вашему фоновому изображению */
+  background-image: url(back.jpg);
   background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center;
+  background-repeat: repeat-y;
+  background-position: center;
   min-height: 100vh;
-	width: 50%;
+	width: 100%;
 	margin: auto;
-  /* Занимает всю высоту экрана */
-  /* display: flex; */
-  /* justify-content: center; */
-  /* align-items: center; */
-  /* flex-direction: column; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 .form-group {
@@ -384,10 +380,6 @@ input[type="submit"] {
   cursor: pointer;
 }
 
-form {
-  margin: 0;
-}
-
 
 .G {
 	text-decoration: none;
@@ -396,19 +388,20 @@ form {
 }
 
 .form {
-  font-family: 'Inter', sans-serif;
+	width: 30%;
+	border: #000;
+  font-family: 'Roboto', sans-serif;
   padding: 20px;
   background-color: #ffffff;
   border-radius: 10px;
+	margin-bottom: 80px;
 }
 
-.log {
-  display: block;
+.cntr {
+	align-items: center;
 }
 
-.password {
-  display: block;
-}
+
 
 input[type="text"],
 input[type="password"] {
@@ -429,26 +422,11 @@ input[type="checkbox"] {
 
 input[type="submit"] {
   width: 98%;
-  /* Ширина кнопки равна ширине контейнера */
   padding: 10px;
   background-color: #DF826C;
-  ;
-  /* Цвет фона кнопки */
   color: #fff;
-  /* Цвет текста кнопки */
   border: none;
   border-radius: 3px;
-}
-
-.btr {
-  background: linear-gradient(to bottom right, rgb(255, 192, 17), #db3e1b);
-  border-color: rgb(0, 0, 0);
-  padding: 10px 15px;
-  border-radius: 15px;
-  text-decoration: none;
-  color: rgb(17, 17, 16);
-  transition: color 0.3s;
-	margin-left: 30px;
 }
 
 .ab {
@@ -479,4 +457,41 @@ input[type="submit"] {
 	text-decoration: none;
 	transition: color 0.3s;
 	color: rgb(0, 0, 0);
+}
+
+.btn10 {
+	text-align: center;
+}
+
+.btn11 {
+	margin-bottom: 80px;
+	text-align: center;
+}
+
+.button-1 {
+	color: #232323;
+	background: transparent;
+	border: 1px solid #232323;
+	position: relative;
+	font-size: 14px;
+	letter-spacing: .3em;
+	font-family: 'Roboto ', sans-serif;
+	padding: 17px 34px 17px 39px;
+	transition: .2s ease-in-out;
+	cursor: pointer;
+}
+.button-1:before {
+	content: "" ;
+	position: absolute;
+	top: 5px;
+	left: 5px;
+	width: 100%;
+	height: 100%;
+	background: #DF826C;
+	z-index: -1;
+	transition: .25s ease;
+	transform: translate(0, 0);
+}
+.button-1:hover:before {
+	transform: translate(4px, 4px);
 }
