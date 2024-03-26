@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'GetVoIP Grotesque';
+    src: local('GetVoIP Grotesque'), local('GetVoIPGrotesque'), url('Getvoipgrotesque.woff2') format('woff2'), url('Getvoipgrotesque.woff') format('woff'), url('Getvoipgrotesque.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'GetVoIP Grotesque';
+    src: local('GetVoIP Grotesque Italic'), local('GetVoIPGrotesque-Italic'), url('Getvoipgrotesqueitalic.woff2') format('woff2'), url('Getvoipgrotesqueitalic.woff') format('woff'), url('Getvoipgrotesqueitalic.ttf') format('truetype');
+    font-weight: 400;
+    font-style: italic;
+}
