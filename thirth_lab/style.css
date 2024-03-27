@@ -12,7 +12,7 @@ body {
 }
 
 .title_menu p {
-	z-index: 1;
+	min-height: 10vh;
 	font-family: 'Comfortaa';
 	font-size: 40px;
 	margin-bottom: 50px;
@@ -20,7 +20,6 @@ body {
 }
 
 .list_menu a {
-	z-index: 1;
 	font-family: 'Comfortaa';
 	font-weight: 600;
 	font-size: 25px;
@@ -42,20 +41,15 @@ body {
 	color: #000000;
 }
 
-.list_menu li {
-	margin: 25px 0;
-}
-
-.list_menu {
-	margin-bottom: 50px;
-}
-
 .menu {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
 	z-index: 1;
 	padding: 25vh 50px;
 	position: fixed;
 	background: rgba(20, 20, 20, 0.5);
-	height: 100vh;
+	height: 50vh;
 	backdrop-filter: blur(16px);
 	border-right: 7px solid #e18c79;
 	border-top: 7px solid #dd94ea;
