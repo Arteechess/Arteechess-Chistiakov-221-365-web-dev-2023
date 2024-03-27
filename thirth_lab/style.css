@@ -11,6 +11,62 @@ body {
 		font-kerning: auto;
 }
 
+.title_menu p {
+	z-index: 1;
+	font-family: 'Comfortaa';
+	font-size: 40px;
+	margin-bottom: 50px;
+	color: #dd94ea;
+}
+
+.list_menu a {
+	z-index: 1;
+	font-family: 'Comfortaa';
+	font-weight: 600;
+	font-size: 25px;
+	color: #ffffff;
+	padding-left: 2px solid #DF826C;
+	transition: all 0.2s ease;
+
+}
+
+.list_menu a:hover {
+	border-left: 4px solid #dd94ea;
+	padding-left: 10px;
+	transition: all 0.2s ease;
+}
+
+.footer_menu p {
+	font-family: 'Comfortaa';
+	font-size: 15px;
+	color: #000000;
+}
+
+.list_menu li {
+	margin: 25px 0;
+}
+
+.list_menu {
+	margin-bottom: 50px;
+}
+
+.menu {
+	z-index: 1;
+	padding: 25vh 50px;
+	position: fixed;
+	background: rgba(20, 20, 20, 0.5);
+	height: 100vh;
+	backdrop-filter: blur(16px);
+	border-right: 7px solid #e18c79;
+	border-top: 7px solid #dd94ea;
+	left: -355px;
+}
+
+.menu:hover {
+	left: 0;
+	transition: all 0.3s ease;
+}
+
 #artem {
 	margin: 0;
 	font-weight: 400;
@@ -104,7 +160,7 @@ section {
 
 .sidebarer {
 		display: flex;
-		z-index: 1;
+		/* z-index: 1; */
 		transform: translateY(50%); /* используем transform для точного позиционирования */
 		width: 170px;
 		margin: 0 auto;
