@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chistiakov A.D.</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet" />
+		<link rel = "shortcut icon" href = "fav.ico" type = "image/x-icon">
+</head>
+
+<body id="artem">
+    <header class="header">
+        <div class="container">
+            <nav class="nav">
+                <a class="G" href="index.html">Главная</a>
+            </nav>
+        </div>
+    </header>
+    <div class="background-image">
+      <div class="form">
+        <h2>Форма обратной связи</h2>
+        <div class="cntr">
+            <form action="https://httpbin.org/post" method="post" enctype="multipart/form-data">
+                <div class="form-group">
+                    <label for="fio">Введите ФИО</label>
+                    <input type="text" name="fio" placeholder="Введите ФИО"
+                        required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" name="email" placeholder="Введите e-mail"
+                        required>
+                </div>
+                <fieldset>
+                    <legend>Категория обращения</legend>
+                    <select name="type">
+                        <option value="positive">Предложение</option>
+                        <option value="negative">Жалоба</option>
+                    </select>
+                </fieldset>
+                <fieldset>
+                    <legend>Откуда Вы узнали обо мне?</legend>
+                    <div class="form-group">
+
+                        <input type="radio" name="source" value="fmradio">
+                        <label for="fmradio">Радио</label>
+                    </div>
+                    <div class="form-group">
+
+                        <input type="radio" name="source" value="tv">
+                        <label for="tv">Телевидение</label>
+                    </div>
+                    <div class="form-group">
+
+                        <input type="radio" name="source" value="friends">
+                        <label for="friends">Друзья</label>
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <legend>Текст сообщения</legend>
+                    <textarea name="message" cols="10" rows="10"
+                        placeholder="Введите текст сообщения"></textarea>
+                </fieldset>
+                <fieldset>
+                    <legend>Вложение</legend>
+                    <input type="file" name="file">
+                </fieldset>
+                <div class="form-group">
+                    <input type="checkbox" name="agree">
+                    <label for="email">Даю согласие на обработку персональных данных</label>
+                </div>
+                <input type="submit" value="Отправить">
+            </form>
+        </div>
+      </div>
+    
+	</div>
+	<footer>
+		<div class="container">
+				<div class="contact__title">Мои контакты</div>
+				<p>artem@chistiakov.su</p>
+				<p>@ARCHESTERFILD</p>
+		</div>
+		<p class="text-center">Copyright © 2024. Использование материалов допускается только с указанием данного ресурса в качестве источника</p>
+</footer>
+</body>
+
+</html>

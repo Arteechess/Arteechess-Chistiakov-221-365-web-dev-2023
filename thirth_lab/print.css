@@ -1,0 +1,74 @@
+@media print {
+  footer {
+    display: none;
+  }
+
+  .ab {
+    display: none;
+  }
+
+	.ed {
+			display: none;
+	}
+
+	.sk {
+		display: none;
+	}
+
+	.co {
+		display: none;
+	}
+
+	.obr {
+		display: none;
+	}
+
+	.btn10 {
+		display: none;
+	}
+
+
+	.chisto {
+		width: 40%;
+		text-align: center;
+	}
+
+  .container {
+    width: 100%; /* Обеспечить, чтобы содержимое занимало всю ширину страницы */
+    margin: 0;
+		padding: 0 0 0 0;  /* Снять отступы у контейнера для печати */
+		page-break-after: always;
+  }
+
+	.about_me__text-title{
+		margin: 0;
+
+	}
+
+	.about_me {
+		margin: 0;
+	}
+
+	.about_me__text-info{
+		width: 70%;
+		margin-left: 10%;
+		margin-top: 5%;
+	}
+
+	.button-1 {
+		display: none;
+	}
+
+	.button-2 {
+		display: none;
+	}
+
+	.sidebarer{
+			display: none;
+	}
+
+	.menu {
+			display: none;
+	}
+
+}
